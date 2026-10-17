@@ -2,4 +2,4 @@
 
 | 分支 | 领域 | 唤醒原话 | 来源数 | 更新 |
 | --- | --- | --- | --- | --- |
-| [know-ai-image](branches/know-ai-image/SKILL.md) | AI 作图 | 配个图、做张封面、图不对 | 1 | 2026-10-17 |
+| [know-ai-image](branches/know-ai-image/SKILL.md) | AI 作图 | 配个图、做张封面、图不对 | 1 | 2026-10-17（考题 5/5）|

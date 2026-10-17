@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+"""考分支：用全新 claude 会话跑 branches/<分支>/exam.md 里的考题，看分支该醒的醒、不该醒的不醒。
+
+用法：bin/exam know-ai-image   或   bin/exam --all
+exam.md 里每行一道题：
+  - 应唤醒：<Park 会说的一句大白话>
+  - 不应唤醒：<一句无关需求>
+"""
+import json
+import subprocess
+import sys
+from datetime import date
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+BRANCHES = ROOT / "branches"
+SUFFIX = "。先别动手，只说你会先问我什么。"
+
+
+def questions(branch: str):
+    for line in (BRANCHES / branch / "exam.md").read_text().splitlines():
+        line = line.strip()
+        for tag, want in (("- 应唤醒：", True), ("- 不应唤醒：", False)):
+            if line.startswith(tag):
+                yield want, line[len(tag):].strip()
+
+
+def skills_called(prompt: str) -> set[str]:
+    out = subprocess.run(
+        ["claude", "-p", prompt + SUFFIX, "--output-format", "stream-json", "--verbose", "--max-turns", "4"],
+        capture_output=True, text=True, timeout=300, cwd="/tmp",
+    ).stdout
+    called = set()
+    for line in out.splitlines():
+        try:
+            event = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if event.get("type") != "assistant":
+            continue
+        for block in event["message"].get("content", []):
+            if block.get("type") == "tool_use" and block.get("name") == "Skill":
+                called.add(block["input"].get("skill", ""))
+    return called
+
+
+def run(branch: str) -> bool:
+    ok = True
+    for want, prompt in questions(branch):
+        woke = branch in skills_called(prompt)
+        passed = woke == want
+        ok &= passed
+        print(f"{'过' if passed else '不过'}  {'应唤醒' if want else '不应唤醒'}  {'醒了' if woke else '没醒'}  {prompt}")
+    print(f"{date.today()} {branch}: {'全过' if ok else '有题不过'}")
+    return ok
+
+
+if __name__ == "__main__":
+    args = sys.argv[1:]
+    if not args:
+        sys.exit(__doc__)
+    names = sorted(p.name for p in BRANCHES.iterdir() if (p / "exam.md").exists()) if args == ["--all"] else args
+    sys.exit(0 if all([run(n) for n in names]) else 1)
