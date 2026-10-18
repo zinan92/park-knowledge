@@ -105,25 +105,7 @@
         "agent_harness"
       ],
       "limbs": [],
-      "predictions": [
-        "pred-001",
-        "pred-002",
-        "pred-003",
-        "pred-009",
-        "pred-010",
-        "pred-011",
-        "pred-012",
-        "pred-013",
-        "pred-014",
-        "pred-015",
-        "pred-016",
-        "pred-017",
-        "pred-018",
-        "pred-032",
-        "pred-035",
-        "pred-040",
-        "pred-045"
-      ]
+      "predictions": []
     }
   ],
   "not_principles": {
