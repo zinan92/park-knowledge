@@ -1,0 +1,43 @@
+{
+  "_说明": "知识树的形状（Park 10/18）：三棵树长在同一块地基上。地基 = 通用原则；每棵树的根 = 这个领域的原则；树上挂的是这个领域的预测（你下的注）和收进来的分支（know-*）。原则、预测的原文在 park-ai-intel/src/data/ 里，这里只写归到哪。分支照旧平铺在 branches/，这里只写它挂在哪根大树杈上。新收的分支没写进来，页面会放在「还没挂上」里。",
+  "principle_sources": "~/work/park-ai-intel/src/data",
+  "foundation": {
+    "name": "地基",
+    "categories": ["universal", "relationships"],
+    "move_in": ["p081", "p148"]
+  },
+  "trees": [
+    {
+      "key": "content",
+      "name": "内容生产",
+      "categories": ["content"],
+      "limbs": [
+        {"key": "plan", "name": "选题与排内容", "branches": ["know-content-plan"]},
+        {"key": "article", "name": "文章", "branches": []},
+        {"key": "image", "name": "图片", "branches": ["know-ai-image"]},
+        {"key": "video", "name": "视频", "branches": ["know-ai-video"]}
+      ],
+      "predictions": ["pred-026", "pred-027", "pred-028", "pred-029", "pred-030", "pred-036", "pred-043", "pred-048", "pred-049"]
+    },
+    {
+      "key": "trading",
+      "name": "交易",
+      "categories": ["trading"],
+      "move_out": ["p081", "p148"],
+      "limbs": [],
+      "predictions": ["pred-019", "pred-020", "pred-021", "pred-022", "pred-024", "pred-025", "pred-031", "pred-033", "pred-038", "pred-041", "pred-042", "pred-044", "pred-046", "pred-047", "pred-050"]
+    },
+    {
+      "key": "agents",
+      "name": "Agents",
+      "categories": ["agent_harness"],
+      "limbs": [
+        {"key": "build", "name": "用 AI 做东西", "branches": ["know-3d-game"]}
+      ],
+      "predictions": ["pred-001", "pred-002", "pred-003", "pred-009", "pred-010", "pred-011", "pred-012", "pred-013", "pred-014", "pred-015", "pred-016", "pred-017", "pred-018", "pred-032", "pred-035", "pred-040", "pred-045"]
+    }
+  ],
+  "not_principles": {
+    "p308": "这是预测（和 pred-028 同一句），不当原则"
+  }
+}
