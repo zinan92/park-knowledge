@@ -3,38 +3,127 @@
   "principle_sources": "~/work/park-ai-intel/src/data",
   "foundation": {
     "name": "地基",
-    "categories": ["universal", "relationships"],
-    "move_in": ["p081", "p148"]
+    "categories": [
+      "universal",
+      "relationships"
+    ],
+    "move_in": [
+      "p081",
+      "p148"
+    ]
   },
   "trees": [
     {
       "key": "content",
       "name": "内容生产",
-      "categories": ["content"],
-      "limbs": [
-        {"key": "plan", "name": "选题与排内容", "branches": ["know-content-plan"]},
-        {"key": "article", "name": "文章", "branches": []},
-        {"key": "image", "name": "图片", "branches": ["know-ai-image"]},
-        {"key": "video", "name": "视频", "branches": ["know-ai-video"]}
+      "about": "做出来给人看、给人用的东西：选题、文章、图片、视频、游戏场景和角色。用什么工具做（包括用 Agent 做）都归这里。",
+      "categories": [
+        "content"
       ],
-      "predictions": ["pred-026", "pred-027", "pred-028", "pred-029", "pred-030", "pred-036", "pred-043", "pred-048", "pred-049"]
+      "limbs": [
+        {
+          "key": "plan",
+          "name": "选题与排内容",
+          "branches": [
+            "know-content-plan"
+          ]
+        },
+        {
+          "key": "article",
+          "name": "文章",
+          "branches": []
+        },
+        {
+          "key": "image",
+          "name": "图片",
+          "branches": [
+            "know-ai-image"
+          ]
+        },
+        {
+          "key": "video",
+          "name": "视频",
+          "branches": [
+            "know-ai-video"
+          ]
+        },
+        {
+          "key": "game",
+          "name": "游戏与 3D",
+          "branches": [
+            "know-3d-game"
+          ]
+        }
+      ],
+      "predictions": [
+        "pred-026",
+        "pred-027",
+        "pred-028",
+        "pred-029",
+        "pred-030",
+        "pred-036",
+        "pred-043",
+        "pred-048",
+        "pred-049"
+      ]
     },
     {
       "key": "trading",
       "name": "交易",
-      "categories": ["trading"],
-      "move_out": ["p081", "p148"],
+      "about": "在市场里下注：判断、仓位、风控、看清大钱往哪走。",
+      "categories": [
+        "trading"
+      ],
+      "move_out": [
+        "p081",
+        "p148"
+      ],
       "limbs": [],
-      "predictions": ["pred-019", "pred-020", "pred-021", "pred-022", "pred-024", "pred-025", "pred-031", "pred-033", "pred-038", "pred-041", "pred-042", "pred-044", "pred-046", "pred-047", "pred-050"]
+      "predictions": [
+        "pred-019",
+        "pred-020",
+        "pred-021",
+        "pred-022",
+        "pred-024",
+        "pred-025",
+        "pred-031",
+        "pred-033",
+        "pred-038",
+        "pred-041",
+        "pred-042",
+        "pred-044",
+        "pred-046",
+        "pred-047",
+        "pred-050"
+      ]
     },
     {
       "key": "agents",
       "name": "Agents",
-      "categories": ["agent_harness"],
-      "limbs": [
-        {"key": "build", "name": "用 AI 做东西", "branches": ["know-3d-game"]}
+      "about": "只管造 Agent 本身：agent loop、bot、harness、skill / SOP 怎么搭。用 Agent 去做内容、做交易不算这里——那些归内容生产和交易。",
+      "categories": [
+        "agent_harness"
       ],
-      "predictions": ["pred-001", "pred-002", "pred-003", "pred-009", "pred-010", "pred-011", "pred-012", "pred-013", "pred-014", "pred-015", "pred-016", "pred-017", "pred-018", "pred-032", "pred-035", "pred-040", "pred-045"]
+      "limbs": [],
+      "predictions": [
+        "pred-001",
+        "pred-002",
+        "pred-003",
+        "pred-009",
+        "pred-010",
+        "pred-011",
+        "pred-012",
+        "pred-013",
+        "pred-014",
+        "pred-015",
+        "pred-016",
+        "pred-017",
+        "pred-018",
+        "pred-032",
+        "pred-035",
+        "pred-040",
+        "pred-045"
+      ]
     }
   ],
   "not_principles": {
