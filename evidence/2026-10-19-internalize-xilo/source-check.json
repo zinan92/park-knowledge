@@ -1,0 +1,11 @@
+{
+  "source": "https://x.com/xilo2991/status/2104912748794589515",
+  "fetch": "public mirror; direct X fetch returned 403",
+  "article_id": "2104896114512334848",
+  "body_blocks": 175,
+  "entities": 23,
+  "archive": "/Users/wendy/park-hands/002_clippings/零基础入门 Opus 5.5 做视频：AI 如何用代码做视频.md",
+  "archive_sha256": "3b376dde3e2243183fe30031e44a212457b303becc929f549cfbe749df44eba1",
+  "coverage": "all text blocks and embedded markdown retained; media linked, not downloaded or viewed",
+  "source_sha256": "c4d1250306e25869525e3655acf9386959a43a5de788b5bd6ec5cebbb2cbb7b5"
+}
