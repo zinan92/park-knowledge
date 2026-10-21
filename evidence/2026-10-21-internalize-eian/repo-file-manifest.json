@@ -1,0 +1,20 @@
+{
+  "working_tree": {
+    "branches/know-ai-video/SKILL.md": "38a8593957f5357258afd33dc151c1ec7aa0ef7e0fafe64865dc56da5c425576",
+    "branches/know-ai-video/exam.md": "84b73eecb7e1e1fcfcf715c510b5b081fc268f71d2caddd4f30036d34b7cfadd",
+    "branches/know-ai-video/sources.md": "43b14cc142c4b4b907ae4eb6f4875d0388abdd0d86288223f25ea5404493c57e",
+    "TREE.md": "d46535299e75b3c167da9187c2e096c1918cbc12ba8d1720b120ed6a87a178b8",
+    "REGISTRY.md": "78bd0f94cdf3bd31c174aa43f550d4ef3641ec0994c93b4db4dbe399abddb106",
+    "decision-log.md": "a104f6f945577b214b738873f9b05a0278280b1ba7ffff31d9fc366e52c80b7b",
+    "branches/know-ai-video/references/data-stories.md": "4cb82844617918ad08ae4261eb046bab95d64426aef741901d1f03c4bca4a554"
+  },
+  "commit_candidate": {
+    "branches/know-ai-video/SKILL.md": "7e0c6e4fcf55111eae108c0427865ffffe9d43dff691c25a99dc3c1dc5ac3df2",
+    "branches/know-ai-video/exam.md": "7d127a8d221d671a92cc5b8e8b5a00ae2e5ba7fe324747e336c9385eb68e8d82",
+    "branches/know-ai-video/sources.md": "4f5bde49650c8f82279c715c598bd758cc2099101864a672e793136120865d4c",
+    "TREE.md": "9550edeff514add4d1b4f3c5a8a4dc9c480dfb940731329642423f5ac492e3fd",
+    "REGISTRY.md": "95fc78be49f67fa044523cc091240890f3daaeddb2f94a06915278d82299147e",
+    "decision-log.md": "74f5f6796325591a88b70356240906e39562d41b23659bfe724ed0f211c58dd6",
+    "branches/know-ai-video/references/data-stories.md": "4cb82844617918ad08ae4261eb046bab95d64426aef741901d1f03c4bca4a554"
+  }
+}

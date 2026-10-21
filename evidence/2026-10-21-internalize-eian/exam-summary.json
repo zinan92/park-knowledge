@@ -1,0 +1,212 @@
+{
+  "branch": "know-ai-video",
+  "date": "2026-10-21",
+  "runner": "bin/exam (unmodified, run via runpy; subprocess.run wrapped only to save raw receipts)",
+  "passed": 17,
+  "total": 17,
+  "candidate_questions": 14,
+  "candidate_is_tested_subset": true,
+  "candidate_description_identical": true,
+  "results": [
+    {
+      "question": "帮我做个动画，讲讲 AI 怎么替代脑力劳动",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 39.53
+    },
+    {
+      "question": "用 AI 生成一段一分钟的短片",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 21.62
+    },
+    {
+      "question": "我生成了十几段视频，接起来像素材合集，怎么办",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 26.65
+    },
+    {
+      "question": "给这条口播视频加点动效",
+      "expected_wake": false,
+      "woke": false,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "park-video-v2"
+      ],
+      "elapsed_seconds": 22.68
+    },
+    {
+      "question": "帮我给这篇文章配张图",
+      "expected_wake": false,
+      "woke": false,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-image"
+      ],
+      "elapsed_seconds": 22.52
+    },
+    {
+      "question": "用水墨风格做一支 40 秒的片子，讲我们咖啡园的来历",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 27.38
+    },
+    {
+      "question": "想做个像素游戏风的小短片，不知道选什么风格",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 27.82
+    },
+    {
+      "question": "用代码做个产品宣传片，界面跟着音乐变形",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 30.59
+    },
+    {
+      "question": "我想做个真人跳舞配动画背景的视频",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 34.33
+    },
+    {
+      "question": "帮我做一个能点按钮操作的网页产品，不要视频",
+      "expected_wake": false,
+      "woke": false,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [],
+      "elapsed_seconds": 32.27
+    },
+    {
+      "question": "给我的产品做个 30 秒的发布片，官网和品牌素材都在这",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 30.56
+    },
+    {
+      "question": "做支宣传片，用我自己的录音当旁白",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 28.79
+    },
+    {
+      "question": "给我的产品做一张发布海报，用现有品牌色",
+      "expected_wake": false,
+      "woke": false,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-image"
+      ],
+      "elapsed_seconds": 22.17
+    },
+    {
+      "question": "把成都几千年的历史做成两分钟的地图视频",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 35.16
+    },
+    {
+      "question": "把城市越建越大的过程做成会动的讲解",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 24.89
+    },
+    {
+      "question": "我只有今天的建筑数据，想做古今变迁短片",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [
+        "know-ai-video"
+      ],
+      "elapsed_seconds": 25.36
+    },
+    {
+      "question": "帮我做一个能点建筑查资料的交互地图网页，不要视频",
+      "expected_wake": false,
+      "woke": false,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false,
+      "skills_called": [],
+      "elapsed_seconds": 28.3
+    }
+  ]
+}
