@@ -1,0 +1,15 @@
+session 1 {"prompt": "这个服务该收多少钱，我没想清楚。先别动手，只说你会先问我什么。", "exit_code": 0, "elapsed_seconds": 11.45, "result_is_error": false, "subtype": "success", "skills_called": ["know-offer-pricing"], "valid": true}
+过  应唤醒  醒了  这个服务该收多少钱，我没想清楚
+session 2 {"prompt": "想在现有产品上加个高价套餐，不知道多给什么。先别动手，只说你会先问我什么。", "exit_code": 0, "elapsed_seconds": 9.48, "result_is_error": false, "subtype": "success", "skills_called": ["know-offer-pricing"], "valid": true}
+过  应唤醒  醒了  想在现有产品上加个高价套餐，不知道多给什么
+session 3 {"prompt": "客户都说贵，要不要把服务价格降下来。先别动手，只说你会先问我什么。", "exit_code": 0, "elapsed_seconds": 10.25, "result_is_error": false, "subtype": "success", "skills_called": ["know-offer-pricing"], "valid": true}
+过  应唤醒  醒了  客户都说贵，要不要把服务价格降下来
+session 4 {"prompt": "成交很多却没赚到钱，帮我看看收费和交付哪里不对。先别动手，只说你会先问我什么。", "exit_code": 0, "elapsed_seconds": 9.99, "result_is_error": false, "subtype": "success", "skills_called": ["know-offer-pricing"], "valid": true}
+过  应唤醒  醒了  成交很多却没赚到钱，帮我看看收费和交付哪里不对
+session 5 {"prompt": "接单忙不过来了，要不要涨价少接几单。先别动手，只说你会先问我什么。", "exit_code": 0, "elapsed_seconds": 10.38, "result_is_error": false, "subtype": "success", "skills_called": ["know-offer-pricing"], "valid": true}
+过  应唤醒  醒了  接单忙不过来了，要不要涨价少接几单
+session 6 {"prompt": "给这张产品海报写促销文案，价格已经定好别改。先别动手，只说你会先问我什么。", "exit_code": 0, "elapsed_seconds": 7.5, "result_is_error": false, "subtype": "success", "skills_called": [], "valid": true}
+过  不应唤醒  没醒  给这张产品海报写促销文案，价格已经定好别改
+session 7 {"prompt": "帮我判断这只股票现在的价格贵不贵。先别动手，只说你会先问我什么。", "exit_code": 0, "elapsed_seconds": 11.49, "result_is_error": false, "subtype": "success", "skills_called": [], "valid": true}
+过  不应唤醒  没醒  帮我判断这只股票现在的价格贵不贵
+2026-10-22 know-offer-pricing: 全过

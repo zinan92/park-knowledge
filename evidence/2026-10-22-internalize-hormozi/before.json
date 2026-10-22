@@ -1,0 +1,10 @@
+{
+  "head": "87fd526d34ae9a971f3abcedc2da6c15869dcb14",
+  "status": " M REGISTRY.md\n M TREE.md\n M branches/know-ai-video/SKILL.md\n M branches/know-ai-video/exam.md\n M branches/know-ai-video/references/style-films.md\n M branches/know-ai-video/sources.md\n M branches/know-content-plan/SKILL.md\n M branches/know-content-plan/exam.md\n M branches/know-content-plan/sources.md\n M decision-log.md\n?? .internalize-hormozi/\n?? branches/know-ai-video/references/data-stories.md\n?? evidence/\n",
+  "shared_sha256": {
+    "TREE.md": "d46535299e75b3c167da9187c2e096c1918cbc12ba8d1720b120ed6a87a178b8",
+    "forest.json": "521a29de55474b2ce47fde1db69ef20e14cf3bf8ee2b636d035fd7dc126cca29",
+    "REGISTRY.md": "78bd0f94cdf3bd31c174aa43f550d4ef3641ec0994c93b4db4dbe399abddb106",
+    "decision-log.md": "a104f6f945577b214b738873f9b05a0278280b1ba7ffff31d9fc366e52c80b7b"
+  }
+}

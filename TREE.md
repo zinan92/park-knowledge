@@ -6,3 +6,4 @@
 | [know-ai-video](branches/know-ai-video/SKILL.md) | 做视频 / 动画 / 代码与混合素材短片 / 数据讲解片 | 做个视频、把城市历史做成视频、把数据做成会动的讲解 | 4 | 2026-10-21（考题 14/14）|
 | [know-3d-game](branches/know-3d-game/SKILL.md) | 3D 游戏 / 场景 / 角色 | 做个 3D 游戏、能走进去逛的世界 | 1 | 2026-10-17（考题 5/5）|
 | [know-content-plan](branches/know-content-plan/SKILL.md) | 排一批内容 / 起号 | 第一批发什么、帮我排一批选题、下一批发什么 | 1 | 2026-10-17（考题 5/5）|
+| [know-offer-pricing](branches/know-offer-pricing/SKILL.md) | 产品与服务定价 | 服务收多少钱、加高价套餐、客户嫌贵、忙却不赚钱 | 1 | 2026-10-22（考题 7/7）|

@@ -1,0 +1,69 @@
+{
+  "branch": "know-offer-pricing",
+  "date": "2026-10-22",
+  "passed": 7,
+  "total": 7,
+  "positive": 5,
+  "near_neighbor_negative": 2,
+  "scope": "project skill in park-knowledge; no global registration because of requested write boundary",
+  "runner": "bin/exam unmodified, real fresh claude processes, cwd adjusted to project; raw receipts checked for exit_code=0 and is_error=false",
+  "invalid_probe_excluded": 1,
+  "results": [
+    {
+      "question": "这个服务该收多少钱，我没想清楚",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false
+    },
+    {
+      "question": "想在现有产品上加个高价套餐，不知道多给什么",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false
+    },
+    {
+      "question": "客户都说贵，要不要把服务价格降下来",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false
+    },
+    {
+      "question": "成交很多却没赚到钱，帮我看看收费和交付哪里不对",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false
+    },
+    {
+      "question": "接单忙不过来了，要不要涨价少接几单",
+      "expected_wake": true,
+      "woke": true,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false
+    },
+    {
+      "question": "给这张产品海报写促销文案，价格已经定好别改",
+      "expected_wake": false,
+      "woke": false,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false
+    },
+    {
+      "question": "帮我判断这只股票现在的价格贵不贵",
+      "expected_wake": false,
+      "woke": false,
+      "passed": true,
+      "exit_code": 0,
+      "result_is_error": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "base_commit": "1d505025c1c693222cee31f7d0140c5343bf4ffd",
+  "files": [
+    {
+      "file": ".claude/skills/know-offer-pricing",
+      "symlink": "../../branches/know-offer-pricing"
+    },
+    {
+      "file": "branches/know-offer-pricing/SKILL.md",
+      "sha256": "00cd2d8df04f1317b6dd0b70fdd0083249e58c91f47b15ac991e2ce7713747ec",
+      "bytes": 5807
+    },
+    {
+      "file": "branches/know-offer-pricing/exam.md",
+      "sha256": "44d4e9c10762ee5b2f435836e600a46aa91b3c73e89bf9dabf6d134f832639ec",
+      "bytes": 510
+    },
+    {
+      "file": "branches/know-offer-pricing/sources.md",
+      "sha256": "0f45c62dc79c70ea0e60a3fc7ba5ab2013a5bd32e37eb14f2dcef17d85632461",
+      "bytes": 917
+    },
+    {
+      "file": "branches/know-offer-pricing/references/tier-economics.md",
+      "sha256": "e6987bb568f6c3366e03556c020cc256618b1efce948fc25ea274484a13545de",
+      "bytes": 2895
+    },
+    {
+      "file": "TREE.md",
+      "sha256": "6020248bed2e9402228754b884cbe72ce46843f7917db9a55f5e4e6e6bcddda3",
+      "bytes": 1033
+    },
+    {
+      "file": "forest.json",
+      "sha256": "3cc8eb29e543e156ab6d7c40615d2ab9cd10495a721a1119dd80149010cef3e4",
+      "bytes": 3125
+    },
+    {
+      "file": "REGISTRY.md",
+      "sha256": "efa846abc4f5563cb98deaf18389f23410370d6fe7d9b1c960235ad96fd8a3ce",
+      "bytes": 1989
+    },
+    {
+      "file": "decision-log.md",
+      "sha256": "46c3a9d26c7d463d14b2bb847717baf5c949085e983002ee11883a6efc87f630",
+      "bytes": 6772
+    },
+    {
+      "file": "evidence/2026-10-22-internalize-hormozi/before.json",
+      "sha256": "1eba44215233dfe12e499f83847ca1c9d0893e121ceb3dc5f318eb1be545e546",
+      "bytes": 871
+    },
+    {
+      "file": "evidence/2026-10-22-internalize-hormozi/clipping-manifest.json",
+      "sha256": "30b1b238e55a52fc141c5766d12f008a65ce8cf3499cdc6578c1661453f64599",
+      "bytes": 382
+    },
+    {
+      "file": "evidence/2026-10-22-internalize-hormozi/exam-output.txt",
+      "sha256": "561e6b7a7f204e75723428ad9e6ba1dc56311ac22b1045db6f6b5d0cc6ae3922",
+      "bytes": 2488
+    },
+    {
+      "file": "evidence/2026-10-22-internalize-hormozi/exam-runner.py",
+      "sha256": "482615d26813dfd519f3e238ce8449460253704cdfcbe80f6689f9bb9e14694e",
+      "bytes": 2791
+    },
+    {
+      "file": "evidence/2026-10-22-internalize-hormozi/exam-session-summary.json",
+      "sha256": "2cb6f0df09fe478f775f9361d1c1baf41cdf8f3baffa98c00e6109920555891c",
+      "bytes": 2521
+    },
+    {
+      "file": "evidence/2026-10-22-internalize-hormozi/exam-sessions.jsonl",
+      "sha256": "7305052f7a30bab3bd5d6a2d99516b8d6107c537c9795f2f311289ddbe082597",
+      "bytes": 116051
+    },
+    {
+      "file": "evidence/2026-10-22-internalize-hormozi/exam-summary.json",
+      "sha256": "f6ba2d35b5aab3fc10ef84b1b119143899e38d72acc8125c143fb702ba2f02e1",
+      "bytes": 1947
+    },
+    {
+      "file": "evidence/2026-10-22-internalize-hormozi/probe-session.jsonl",
+      "sha256": "66e7148612fbf6e56aa4ca1505d0561602bcf32cff16c6e1e2fd4c2ea84729a7",
+      "bytes": 4867
+    },
+    {
+      "file": "evidence/2026-10-22-internalize-hormozi/source-observations.md",
+      "sha256": "262df6d32e1a0eb54db7d5202182e6821c7798f997bd81650606efb84dd0ee70",
+      "bytes": 2955
+    }
+  ]
+}

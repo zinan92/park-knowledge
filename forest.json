@@ -53,6 +53,13 @@
           "branches": [
             "know-3d-game"
           ]
+        },
+        {
+          "key": "offer",
+          "name": "产品与服务定价",
+          "branches": [
+            "know-offer-pricing"
+          ]
         }
       ],
       "predictions": [
